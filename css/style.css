@@ -1,0 +1,436 @@
+/*Start global*/
+*{
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+p,span{color: #fff}
+
+/*End global*/
+body{
+    background-color: #0d0d0d
+}
+
+ /*Start logo*/
+
+header .top .logo{
+    width: 50%;
+    float: left
+}
+ header .top .logo p span{
+    font: 26px Monaco, MonoSpace;
+    height: 200px;
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    font-weight: bold
+}
+.char1{transform: rotate(6deg);color: #ff3300}
+.char2{transform: rotate(12deg);color: #ff3300}
+.char3{transform: rotate(18deg);color: #ff3300}
+.char4{transform: rotate(24deg)}
+.char5{transform: rotate(30deg)}
+.char6{transform: rotate(36deg)}
+.char7{transform: rotate(42deg)}
+
+header .top .svg-inline--fa{margin-top: 40px; color: #ff3300}
+
+
+/*End logo*/
+/* Start header top contact*/
+
+header .top .contact{
+    width: 50%;
+    float: left
+}
+/*End header top contact*/
+
+/*start navbar*/
+nav{
+    background: linear-gradient(#000, #ff3300,#ff3300,#000);
+}
+
+nav ul{
+    padding: 0
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a{
+    color: #000;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #fff;
+    
+}
+/*End navbar*/
+
+/*Start BxSlider*/
+.slider{
+    padding-bottom: 10px
+}
+.bxslider div{
+    position:relative;
+    margin-bottom: 20px
+        
+}
+.bxslider .overlay{
+    position:absolute;
+    background: rgba(51,51,51,.36);
+    width: 40%;
+    left: 60%;
+    top: 0;
+    bottom: 0;
+    padding: 40px 20px;
+}
+.bxslider .overlay h4{
+    color: #D2D2D2
+}
+.bxslider .overlay p{
+    line-height: 1.7;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: justify
+    
+}
+.bxslider div img{
+    width: 100%;   
+}
+.bxslider .overlay button{
+    background: 0;
+    color: #ff3300;
+    font-weight: bold
+}
+.bxslider .overlay button:hover,
+.bxslider .overlay button:focus{
+    color: #fff;
+    
+}
+.bx-wrapper{
+    background: 0;
+    border-color: #0d0d0d;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+    background: #ff3300
+}
+
+/*End BxSlider*/
+
+/*Start service*/
+.services{
+    color: #fff;
+    height: 500px
+    
+}
+.services h2{
+    font-size: 2em;
+    
+}
+.services .service{
+    width: 22%;
+    margin: 1%;
+    float: left
+}
+.services .service h4{
+    font-style: italic
+}
+.services .service .svg-inline--fa{
+    color: #ff3300;
+    margin-top: 15px
+}
+.services .service p{
+    line-height: 1.7;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Cormorant Garamond', serif;
+}
+.services .service button{
+    padding: 10px 20px;
+    background: none;
+    color: #ff3300;
+    font-weight: bold
+}
+.services .service button:hover,
+.services .service button:focus{
+    color: #fff
+}
+/*End service*/
+
+/*Start Testimonial*/
+.background-image{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-image: url(../images/Nissan2.jpg);
+    min-height: 550px;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-filter: blur(4px);
+    -o-filter: blur(4px);
+    -moz-filter: blur(4px);
+    filter: blur(4px);   
+}
+.testimonial{
+    position:relative;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 1px
+}
+.testimonial h2{
+    font-size: 2em
+}
+.testimonial .row{
+    padding-left: 35px
+}
+.testimonial .feedback{
+    width: 30%;
+    float: left;
+    margin: 1%;
+    background-color: rgba(51,51,51,.5);
+    padding: 1%
+}
+.testimonial .feedback img{
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 25px
+}
+.testimonial .feedback h3{
+    color: #ff3300;
+}
+.testimonial .feedback p{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Cormorant Garamond', serif;
+}
+.testimonial .bx-wrapper{
+    border: 0
+}
+/*End Testimonial*/
+
+/*start latest news*/
+.news{
+    padding-top: 15px;
+	cursor: pointer
+}
+.news h2{
+    color: #fff
+}
+.news ul{
+    padding: 20px
+}
+.news ul li{
+    display: inline-block;
+    margin-right: 20px
+}
+.news ul li{
+    color: #ff3300;
+    font-weight: bold
+}
+.news ul li a:hover{
+    color: #fff
+}
+.news .row {
+   width: 100%
+}
+.news .row .mix{
+    width: 45%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%
+}
+.news .row .mix img{
+    width: 45%;
+    float: left;
+    margin-right: 3%
+}
+.news .row .mix div{
+    width: 45%;
+    float: left
+}
+.news .row .mix div h5{
+    color: #fff;
+    margin-top: 0 ;
+    float: left
+}
+
+.news .row .mix div p{
+    font-size: 12px
+}
+.news .row .mix div span{
+    display: block;
+    margin-bottom: 10px
+}
+.news .row .mix div button{
+    color: #ff3300;
+    font-weight: bold;
+    
+}
+/*End latest news*/
+
+/*Start Our brands*/
+.brands{
+    background-color: #fff;
+    padding: 10px
+}
+.brands ul li{
+    display: inline-block;
+    width: 15%
+}
+.brands ul li img{
+    width: 120px;
+    height: 120px
+}
+/*End Our brands*/
+/*Start contact*/
+.contact{
+    color: #fff;
+}
+.contact .col{
+    width: 31%;
+    float: left;
+    margin: 1%
+}
+.contact .col:nth-child(2){
+    width: 20%
+}
+.contact .col:nth-child(3){
+    width: 40%;
+    height: 400px
+}
+.contact .s-links ul li{
+    display: inline-block;
+    padding: 10px;
+    background-color: #DDD;
+    border-radius: 50%;
+}
+.contact .s-links ul li:first-child,
+.contact .s-links ul li:last-child
+{
+    padding: 10px 15px
+}
+.contact .s-links ul li:first-child{
+    background-color: #2e5cb8
+}
+.contact .s-links ul li:nth-child(2){
+    background-color: #4db8ff
+}
+.contact .s-links ul li:nth-child(3){
+    background-color: #e60000
+}
+.contact .s-links ul li:last-child{
+    background-color: #ffb3b3
+}
+.contact .s-links ul li .svg-inline--fa {
+    font-size: 1.5em;
+}
+.contact .col:nth-child(2){
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Cormorant Garamond', serif;
+}
+/*End contact*/
+
+/*Start sign up*/
+.sign-up{
+    background-color: #CCC;
+    height: 100px
+    
+}
+.sign-up .txt,
+.sign-up .form
+{
+    width: 45%;
+    float:left
+}
+.sign-up .txt p{
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0
+}
+.sign-up .txt span{
+    text-transform: uppercase;
+}
+.sign-up .form{
+    width: 55%;
+    margin-top: 17px;
+    
+}
+.sign-up .form input[type = "text"]{
+    width:39% ;
+    height: 3em;
+    padding: 5px;
+    font-family:serif
+}
+.sign-up .form input[type = "button"]{
+    height: 3em;
+    
+}
+
+/*End sign up*/
+
+/*Start footer*/
+footer{
+    color: #fff;
+}
+footer .svg-inline--fa{
+    margin-top: 40px; 
+    color: #ff3300;
+    margin-top: 0
+}
+footer #btn{
+    position: fixed;
+    display:none ;
+    bottom: 40px;
+    right: 30px; 
+    z-index: 99;
+    font-size: 2em
+}
+
+/*End footer*/
+
+
+/*My Framework*/
+.clear{
+    clear: both
+}
+.container{
+    width: 70%;
+    margin: auto
+}
+.text-center{
+    text-align: center
+}
+.overlay{
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(51,51,51,.8);
+}
+.active{
+    color: #fff;
+    border-bottom: 1px solid #fff
+}
+
